@@ -96,6 +96,9 @@ def write_log():
 
 
 if '__name__' == '__main__':
+	url = ''
+	# url 为电脑端登录时扫码后get网址
+	#ex:"https://ssxx.univs.cn/cgi-bin/authorize/token/?t=1606104941788&uid=***************&avatar=https:%2F%2Fnode2d-public.hep.com.cn%2Favatar-*****************-1606104941788&activity_id=5f71e934bcdbf3a8c3ba5061"
 	my_name_list = ['英雄','复兴','创新','信念']
 	my_index_list = ['5f71e934bcdbf3a8c3ba51d'+str(i) for i in range(5,9)]
 	for i in range(4):
@@ -122,8 +125,6 @@ if '__name__' == '__main__':
 					test = 0
 				print(strit)
 				get_content(url,my_name,my_index)
-				# url 为电脑端登录时扫码后get网址
-				ex:"https://ssxx.univs.cn/cgi-bin/authorize/token/?t=1606104941788&uid=***************&avatar=https:%2F%2Fnode2d-public.hep.com.cn%2Favatar-*****************-1606104941788&activity_id=5f71e934bcdbf3a8c3ba5061"
 			except:
 				strit += 10
 				print('something is wrong')
