@@ -10,6 +10,6 @@
 
 * url有私人信息所以不放出来,获取方式如下:
 
-1. 打开这个网站[https://ssxx.univs.cn/customLogin?redirect=%2Fcustom%2Findex]
+1. 打开这个[网站](https://ssxx.univs.cn/customLogin?redirect=%2Fcustom%2Findex)
 2. F12打开开发者模式,点击NETwork,然后扫码登录
-3. 在结果中搜索含有uid字符的网址即url
+3. 搜索含有uid字符的网址即url(./example.jpg)
